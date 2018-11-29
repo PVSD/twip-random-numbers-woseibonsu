@@ -7,11 +7,19 @@ public class Main {
     public static void main(String[] args) {
 
 
+
+
+
+    }
+
+
+    public int runAverages(int arraySize)
+    {
         int[] generatedNumbers;
         int randomNumber = (int)(Math.random() * 100) + 1;
 
 
-      /*
+
       int runs = 0;
       int index = 0;
       generatedNumbers = new int[100];
@@ -27,13 +35,8 @@ public class Main {
             index++;
             runs++;
             }
-        */
-
-
     }
 
-
-    public int runAverages(int arraySize)
     public static boolean Contains(int number, int[] array)
     {
         boolean contains = false;
