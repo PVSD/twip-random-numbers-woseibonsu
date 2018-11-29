@@ -6,25 +6,34 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //CREATES AN ARRAY RANGING FROM 1-100
-        int[] allNumbers = new int[100];
-        for (int i = 0; i < 100; i++)
-            allNumbers [i] = i;
 
-        int[] generatedNumber = new int[100];
-
+        int[] generatedNumbers;
         int randomNumber = (int)(Math.random() * 100) + 1;
-        System.out.println(randomNumber);
 
-        if (!Contains(randomNumber, allNumbers))
-            generatedNumber[1] = randomNumber;
-        else
-            
+
+      /*
+      int runs = 0;
+      int index = 0;
+      generatedNumbers = new int[100];
+
+            if (!Contains(randomNumber, generatedNumbers))
+                {
+                generatedNumbers[1] = randomNumber;
+                runs++;
+                }
+            else
+            {
+            generatedNumbers[index] = randomNumber;
+            index++;
+            runs++;
+            }
+        */
 
 
     }
 
 
+    public int runAverages(int arraySize)
     public static boolean Contains(int number, int[] array)
     {
         boolean contains = false;
